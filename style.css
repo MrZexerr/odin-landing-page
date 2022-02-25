@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+.header, .content-1 {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    display: flex;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+ul, .content-1 div span, a{
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0px;
+    justify-content: flex-end;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.content-1 {
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.placeholder-one {
+    width: 450x;
+    padding: 100px;
+    margin: 20px;
+    background-color: darkgrey;
+    font-size: 18px;
+
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 12px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.content-2 { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    gap: 20px
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.placeholder-two {
+    width: 200px;
+    height: 200px;
+    font-size: 18px;
+    border: solid;
+    border-color: blue;
+    border-radius: 12px;
+    display: block;
+    
+
+}
+
+.content-2 p {
+    width: 200px;
+}
+
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 100px;
+}
+
+.content-3 span {
+    margin-left: auto;
+}
+
+.content-4 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 100px;
+}
+
+.content-4 .cta {
+    background-color: #3882F6;
+    border-radius: 12px;
+    width: 85%;
+    height: 150px;
+    border-radius: 12px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 12px
+    
+}
+
+.cta button {
+    font-size: 24px;
+    border: solid;
+    border-color: white;
+}
+
+.footer {
+    height: 72px;
+
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
